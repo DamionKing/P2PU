@@ -10,3 +10,9 @@ git push
 #Clean unwanted files after install
 sudo apt-get autoremove
 sudo apt-get remove --purge
+#Uninstalling Programs
+If you use the package manager to install software, then you should use the package manager to remove software. For APT-based systems, here's how:
+sudo apt-get purge [package]
+Or if you don't want to remove all your custom settings, but still want the remove the program, use:
+sudo apt-get remove [package]
+
