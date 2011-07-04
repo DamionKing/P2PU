@@ -8,11 +8,12 @@
 <body>
 <strong><p>Answers to First Assignment</p></strong>
 <li><strong>1) When parsing a String into a number using the parseInt() method, we are advised to always provide the radix. Why is this?</strong>
-<ul>If you do not provide the correct radix the string will not parse correctly. </ul></li>
-<li><strong>2) Why do we lose precision when performing operations with decimal numbers in Javascript? Can you think of a few implications of why this would be a problem?<ul></ul></strong></li>
-<li><strong>3) Do you understand why the next operation produces the given result 115 * 4 - 4 + 88 / 2 = 500?</strong><ul></ul> </li>
-<li><strong>4) What is a type, and why do you think types are useful in writing programs?</strong><ul></ul></li>
-<li><strong>5) What does typeof(4.5); do, and why does typeof(typeof(4.5)); return "string" ?</strong><ul></ul></li>
-<li><strong>6) "+" in Javascript is overloaded, what does this mean?</strong><ul></ul></li>
+<ul>If you do not provide the correct radix the string will not parse correctly, it may give you a 32bit base instead of a 64bit base and vice-versa.</ul></li>
+<li><strong>2) Why do we lose precision when performing operations with decimal numbers in Javascript? Can you think of a few implications of why this would be a problem?</strong><ul>Decimal numbers are not properly valued in Javascript,
+	Example: .9 + .1 != 1.0</ul></li>
+<li><strong>3) Do you understand why the next operation produces the given result 115 * 4 - 4 + 88 / 2 = 500?</strong><ul>No, can someone please explain it to me. </ul> </li>
+<li><strong>4) What is a type, and why do you think types are useful in writing programs?</strong><ul> A type is a way of determining what a variable is, kinda like declaring a variable in other languages. In Java a int type is declared by int x=somevalue.</ul></li>
+<li><strong>5) What does typeof(4.5); do, and why does typeof(typeof(4.5)); return "string" ?</strong><ul> The first is a number and because it is not classified as a number.</ul></li>
+<li><strong>6) "+" in Javascript is overloaded, what does this mean?</strong><ul>Has too many meanings...</ul></li>
 </body>
 </html>
