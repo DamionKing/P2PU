@@ -29,8 +29,12 @@ for line in f:
 print 'Average spam confidence:', spamtotal/spamlines 
 #7.3(Easter Egg)
 file = raw_input('Enter a filename: ')
-while true:
-	if file== 'mbox-short.txt':
-		print('Was up, this is an egg fool!Haha jk!')  
+if file== 'mbox-short.txt':
+        print('Was up, this is an egg fool!Haha jk!')  
+exit()  
+try: fh = open(file) 
+except: 
+    print 'File cannot be opened:', file
+
         
     
