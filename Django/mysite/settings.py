@@ -11,8 +11,8 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/home/wesley/P2PU/Django/mysite/sqlite3.db',                      # Or path to database file if using sqlite3.
+        'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': '',                      # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -83,7 +83,7 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '*7f)f=_kgt5kibz(=c)^hbo-kp)b%78c4g7w9qjxu9+qzw_=i%'
+SECRET_KEY = 'g11h*vhf^=3jwd(b&(y=&j_8@cgiscapqfvybhc-8me&vm*1wj'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
