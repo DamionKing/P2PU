@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+</head>
+<body>
+<table width="50%" border="2" bgcolor="#00FF00">
+      <caption>Theoretical Computer Types</caption>
+         <tr>
+      <th>Different Kinds</th>
+       <th>Main Idea</th>
+      <tr>
+        <td>DNA</td>
+        <td>DNA can perform computation through folding and the like...</td>
+      </tr>
+      <tr>
+        <td>Quantum</td>
+       <td>Atoms can be used to represent both 0 and 1...</td>
+      </tr>
+      <tr>
+        <td>Carbon Silicon Hybrid</td>
+       <td>Organica computers could grow and evolve to meet the challenges they encounter...</td>
+   </table>
+</body>
+</html>
